@@ -9,7 +9,7 @@ Inspired by Dragory Modmail (build in eris) for the documentation and the idea. 
 ## Getting started
 * **[🛠️ Setting up the bot](doc/setup.md)**
 * [📝 Configuration](doc/configuration.md)
-* [🤖 Commands](doc/commands.md)
+* [🏃 Starting the bot](doc/starting-the-bot.md)
 
 ## Support server
 If you need help with setting up the bot or would like to discuss other things related to it, join the support server on Discord here:
