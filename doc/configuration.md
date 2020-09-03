@@ -1,17 +1,41 @@
-# Modmail for Discord
-Modmail Bot is a bot for [Discord](https://discordapp.com/) that allows users to DM the bot to contact the server's moderators/staff
-without messaging them individually or pinging them publically on the server.
-These DMs get relayed to modmail *threads*, channels where staff members can reply to and talk with the user.
-To the user, the entire process happens in DMs with the bot.
+# 📝 Configuration
+Haven't set up the bot yet? Check out [Setting up the bot](setup.md) first!
 
-Inspired by Dragory Modmail (build in eris).
+## Table of contents
+- [Configuration file](#configuration-file) (start here)
+- [Required options](#required-options)
 
-## Getting started
-* **[🛠️ Setting up the bot](doc/setup.md)**
-* [📝 Configuration](doc/configuration.md)
-* [🤖 Commands](doc/commands.md)
+## Configuration file
+All bot options are saved in a configuration file in the bot's folder.
+This is created during the [setup](setup.md) and is generally either `config.ini` or, if you've been using the bot for
+longer, `config.json`.
 
-## Support server
-If you need help with setting up the bot or would like to discuss other things related to it, join the support server on Discord here:
+The instructions on this page are for `config.ini` but can be adapted to `config.json` as well.
+See [config.ini vs config.json](#configini-vs-configjson) for more details.
+Note that the format of `.ini` and `.json` are different -- you can't simply rename a `.json` to `.ini` or
+vice versa.
 
-👉 **[Join support server]https://discord.gg/6UtrKvG)**
+## Required options
+
+#### token
+The bot user's token from [Discord Developer Portal](https://discordapp.com/developers/).
+
+#### guildmembermail
+Your server's ID, wrapped in quotes.
+
+#### guildmodmail
+For a two-server setup, the inbox server's ID.  
+For a single-server setup, same as [mainGuildId](#mainguildid).
+
+#### modmailcategory
+The category were appared the new threads.
+
+#### wlcmsg
+This message will send at the user when he contact the bot in dm.
+
+### Formatting
+*See [the example on the Wikipedia page for JSON](https://en.wikipedia.org/wiki/JSON#Example)
+for a general overview of the JSON format.*
+
+* In `config.json`, all text values and IDs need to be wrapped in quotes, e.g. `"guildmembermail": "729715104261865586"`
+
