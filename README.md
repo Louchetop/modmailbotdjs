@@ -4,7 +4,7 @@ without messaging them individually or pinging them publically on the server.
 These DMs get relayed to modmail *threads*, channels where staff members can reply to and talk with the user.
 To the user, the entire process happens in DMs with the bot.
 
-Inspired by Dragory Modmail (build in eris).
+Inspired by Dragory Modmail (build in eris) for the documentation and the idea. Thanks to Arvix#8443 for his handler.
 
 ## Getting started
 * **[🛠️ Setting up the bot](doc/setup.md)**
