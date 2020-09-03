@@ -14,4 +14,4 @@ Inspired by Dragory Modmail (build in eris) for the documentation and the idea. 
 ## Support server
 If you need help with setting up the bot or would like to discuss other things related to it, join the support server on Discord here:
 
-👉 **[Join support server]https://discord.gg/6UtrKvG)**
+👉 **[Join support server](https://discord.gg/6UtrKvG)**
